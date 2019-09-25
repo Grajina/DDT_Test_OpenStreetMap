@@ -1,0 +1,54 @@
+{ "tests": [
+				{
+					"test_id" : "1", 
+					"address" : "Байконур, 7 микрорайон, 21", 
+					"expected coordinate" : 
+							{
+								"latitude": "45.61261905", 
+								"longitude": "63.2931907409567"
+							}
+				},
+
+				{
+					"test_id" : "2", 
+					"address" : "Байконур, 7 микрорайон, 21", 
+					"expected coordinate" : 
+							{
+								"latitude": "1.234", 
+								"longitude": "5.432"
+							}
+				},
+
+				{
+					"test_id" : "3", 
+					"address" : "Байконур, 7 мкр, 21", 
+					"expected coordinate" : 
+							{
+								"latitude": "45.61261905", 
+								"longitude": "63.2931907409567"
+							}
+				},
+
+				{
+					"test_id" : "4", 
+					"address" : "23ugлrf742ifg/", 
+					"expected coordinate" : 
+							{
+								"latitude": "", 
+								"longitude": ""
+							}
+				},
+
+					{
+					"test_id" : "5", 
+					"address" : "Kazakhstan, Байконур, 6 микрорайон, 37А", 
+					"expected coordinate" : 
+							{
+								"latitude": "45.6202258", 
+								"longitude": "63.2933489497796"
+							}
+				}
+			]
+	
+	
+}

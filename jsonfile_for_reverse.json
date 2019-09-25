@@ -1,0 +1,45 @@
+{ "tests": [
+				{
+					"test_id" : "1", 
+					"expected address" : "Kazakhstan, Кызылординская область, Байконур, Набережная улица, 1", 
+					"coordinate" : 
+							{
+								"latitude": "45.61261905", 
+								"longitude": "63.2931907409567"
+							}
+				},
+
+				{
+					"test_id" : "2", 
+					"expected address" : "", 
+					"coordinate" : 
+							{
+								"latitude": "45,61261905", 
+								"longitude": "63,2931907409567"
+							}
+				},
+
+				{
+					"test_id" : "3", 
+					"expected address" : "", 
+					"coordinate" : 
+							{
+								"latitude": "999.999", 
+								"longitude": "111.111"
+							}
+				},
+
+				{
+					"test_id" : "4", 
+					"expected address" : "Казахстан, Кызылординская область, Байконур, Набережная улица, 1", 
+					"coordinate" : 
+							{
+								"latitude": "63.2931907409567", 
+								"longitude": "45.61261905"
+							}
+				}
+
+			]
+	
+	
+}
